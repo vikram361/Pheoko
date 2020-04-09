@@ -1,0 +1,93 @@
+.footer {
+  background: linear-gradient(to bottom, #203abd, #16006f);
+  padding: 10rem 0;
+  font-size: 1.4rem;
+
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
+
+  &__logo-box {
+    text-align: center;
+    margin-bottom: 5rem;
+
+    @include respond(tab-port) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__logo {
+    width: 15rem;
+    height: auto;
+  }
+
+  &__navigation {
+    border-bottom: 1px solid $color-primary-gray3;
+    padding-top: 2rem;
+    display: inline-block;
+
+    @include respond(tab-port) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      color: $color-primary-gray1;
+      display: inline-block;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: all 0.2s;
+    }
+
+    &:hover,
+    &:active {
+      color: $color-primary;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+      transform: rotate(5deg) scale(1.2);
+    }
+  }
+}
+
+.footer-navigation-heading {
+  color: #fff;
+  font-size: 2.2rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer__logo {
+  font-size: 4rem;
+  color: white;
+  padding-bottom: 1.5rem;
+  font-weight: 800;
+
+  &-2 {
+    color: #000;
+  }
+
+  &-para {
+    color: #fff;
+  }
+}
+
+.footer-copyright {
+  color: #fff;
+}
+
+.footer-btn{
+    margin-top: 2rem;
+}

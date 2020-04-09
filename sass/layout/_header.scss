@@ -1,0 +1,54 @@
+.header {
+  height: 90vh;
+  background: linear-gradient(180deg, $color-blue-light, $color-blue-dark);
+  position: relative;
+
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85vh);
+
+  &__content {
+    display: flex;
+    padding-top: 13rem;
+    padding-left: 10rem;
+    align-items: center;
+  }
+
+  &__text-box{
+      flex: 0 0 50%;
+      min-width: 50%;
+  }
+
+  &-img{
+      flex: 0 0 50%;
+      min-width: 50%;
+      height: 50rem;
+      background-image: url(../img/header-img.png);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  &-para{
+      color: #fff;
+  }
+}
+
+.header__logo-box{
+  padding: 5rem 0;
+  padding-left: 10rem;
+  
+}
+
+.header__logo{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 900;
+
+    &-2{
+      color: #000;
+    }
+}
+
+#phn-view-logo{
+  display: none;
+  visibility: hidden;
+}

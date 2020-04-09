@@ -1,0 +1,19 @@
+.features-img {
+  min-height: 30rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &-1 {
+    background-image: url(../img/feature-img-1.png);
+  }
+  &-2 {
+    background-image: url(../img/feature-img-2.png);
+  }
+  &-3 {
+    background-image: url(../img/feature-img-3.png);
+  }
+  &-4 {
+    background-image: url(../img/feature-img-4.png);
+  }
+}

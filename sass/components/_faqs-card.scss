@@ -1,0 +1,38 @@
+.card {
+  border: none;
+
+  &-header {
+    background: none;
+    border: none;
+    font-size: 3rem;
+  }
+}
+.panel-link:link,
+.panel-link:active {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.panel-link {
+  font-size: 3rem;
+}
+
+.card {
+  border: none;
+  box-shadow: 3px 6px 20px #00000029;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.icon-down {
+  float: right;
+}
+
+.for-center{
+    font-size: 2rem;
+    color: black
+}
+
